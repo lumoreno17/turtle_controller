@@ -24,11 +24,11 @@ class turtle_PID():
 
         self.angle_controller.setKp(1.2)
         self.angle_controller.setKi(0)
-        self.angle_controller.setKd(0.2)
+        self.angle_controller.setKd(0)
 
         self.distance_controller.setKp(1.2)
-        self.distance_controller.setKi(0.00001)
-        self.distance_controller.setKd(2)
+        self.distance_controller.setKi(0)
+        self.distance_controller.setKd(0)
 
         self.msg = Twist()
 
